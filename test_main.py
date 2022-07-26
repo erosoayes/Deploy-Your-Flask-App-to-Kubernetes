@@ -38,3 +38,6 @@ def test_auth(client):
     assert response.status_code == 200
     token = response.json['token']
     assert token is not None
+
+
+# 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 <git personal token>
